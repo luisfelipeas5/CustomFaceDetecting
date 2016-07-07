@@ -65,7 +65,7 @@ cascPath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
 
 #face cascade params
-params = [ 
+params = [
 #[neighbors, scale, minSize, keepQualityAfterRotation]
 	[14, 1.5, 15, True],
 	[14, 1.5, 15, False],
